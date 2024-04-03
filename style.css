@@ -230,3 +230,117 @@ opacity: 0.8;
     margin: auto; /* Horizontally centers the paragraph if it has a defined width */
     display: block; /* Ensures the paragraph is treated as a block-level element */
   }
+
+  .featured-speakers {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.featured-speakers h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.speakers-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px; /* Adjust the space between columns as necessary */
+}
+
+.speakers-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Adjust the space between speakers as necessary */
+}
+
+.speaker {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.speaker-photo {
+    width: 150px; /* Fixed size */
+    height: 150px;
+    border-radius: 50%; /* Circular photos */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.speaker h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 0;
+}
+
+.speaker-title {
+    font-weight: bold;
+    color: #666;
+}
+
+.speaker-description {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .speakers-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .speakers-column {
+        width: 100%;
+    }
+}
+
+.site-footer {
+    background-color: #333; /* Dark background for the footer */
+    color: #fff; /* White text color */
+    padding: 2em 0; /* Some padding around the content */
+    font-family: Arial, sans-serif; /* Styling the font */
+    text-align: center; /* Center align the content */
+  }
+  
+  .footer-partners h4 {
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .partners-logos span {
+    margin: 0 1em;
+    font-size: larger; /* Space out the partner names/logos */
+  }
+  
+  .footer-cc {
+    margin-top: 1em; /* Space between partners and copyright */
+  }
+  
+  .cc-logo {
+    width: 100px; /* Set the CC logo width */
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-cc p, .footer-cc a {
+    font-size: 0.75em; /* Smaller font size for the copyright text */
+  }
+  
+  .footer-cc a {
+    color: #4b9cd3; /* A color that stands out, yet fits the dark theme */
+    text-decoration: none; /* No underline */
+    display: block; /* Block display to make it on its own line */
+  }
+  
+  /* Responsive adjustments, if necessary */
+  @media (max-width: 768px) {
+    .partners-logos span {
+      display: block; /* Stack the partner names/logos */
+      margin: 0.5em 0;
+    }
+  }
+  

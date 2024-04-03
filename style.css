@@ -313,7 +313,8 @@ opacity: 0.8;
   }
   
   .partners-logos span {
-    margin: 0 1em; /* Space out the partner names/logos */
+    margin: 0 1em;
+    font-size: larger; /* Space out the partner names/logos */
   }
   
   .footer-cc {

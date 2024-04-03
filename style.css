@@ -1,0 +1,146 @@
+:root {
+    --primary-color: rgba(96, 112, 255, 1);
+  }
+  
+  
+    body {
+ 
+    width: 100%;
+  
+    margin: 0% !important;
+  }
+  
+  
+  
+  
+  .backgroundcolor {
+  
+    background-color: #ececec;
+    opacity: 0.9;
+    padding-bottom: 1mm;
+    padding-top: 1mm;
+    border-radius: 20px;
+  
+  
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Add some padding for spacing */
+    background-color: #fff; /* Optional: Background color for the navbar */
+  }
+  
+  .navbar-left img {
+    height: 50px; /* Control the logo size */
+  }
+  
+  .navbar-right ul {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align nav items horizontally */
+    gap: 20px; /* Space between nav items */
+  }
+  
+  .navbar-right ul li {
+    padding: 8px;
+  }
+  
+  .navbar-right ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #272a31; /* Use the primary color variable for link colors */
+    font-weight: bold;
+  }
+  
+  
+  .hero {
+    background-image: url("Assets/mobile_intro_bg.png");
+    width: 100%;
+opacity: 0.8;
+    height: 100%;
+    gap: 12px;
+    position: relative;
+    display: block;
+  }
+  
+  .hero-title {
+    justify-content: center;
+    text-align: center;
+    font-family: lato;
+    font-size: 40px;
+    font-weight: bolder;
+  
+    line-height: 52px;
+  
+    text-align: left;
+    color: #ec5242;
+    top: 92px;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-left: 150px;
+  }
+  
+  .hero-title h3 {
+
+    padding-top: 2px;
+    
+  }
+  
+  .hero-content {
+    padding-top: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    color: rgba(23, 43, 77, 1);
+    padding-left: 50px;
+    margin-left: 15px;
+    width: 50%;
+    border: 5px solid #f8faff; /* Adding a border */
+    padding: 20px; /* Adjust padding for aesthetic */
+    box-sizing: border-box; /* Ensures padding does not add to the width */
+    margin-left: 150px;
+  }
+  
+  
+  .hero-connect {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #272a31;
+    margin-left: 150px;
+    width: 100%
+  }
+
+  .hero-connect1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+    line-height: 24px;
+    letter-spacing: 0;
+    text-align: left;
+    color: #272a31;
+    margin-left: 150px;
+    width: 100%
+  }
+  
+  .social-icons {
+    padding-top: 10px;
+    display: flex;
+    gap: 20px;
+    margin-left: 15px;
+  }
+  
+  .social-icons1 {
+    padding-top: 10px;
+    display: flex;
+    gap: 2px;
+    margin-left: 5px;
+  }
+  
